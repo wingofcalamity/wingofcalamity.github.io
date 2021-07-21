@@ -4,6 +4,11 @@ body {
     color: white;
     font-size: 200%;  
     margin: 50px 50px 50px 50px;}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 h1 {
     font-size: 100%;  
     text-align: center;}

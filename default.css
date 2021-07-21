@@ -1,0 +1,29 @@
+body {
+    background-color: #36393E;
+    text-align: center;
+    color: white;
+    font-size: 200%;  
+    margin: 50px 50px 50px 50px;}
+h1 {
+    font-size: 100%;  
+    text-align: center;}
+/* div addons lol */
+div {
+    color: white;
+}
+.vertical {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align: center;
+        writing-mode: vertical-rl;
+        line-height: 2.5;}
+.simsun {
+    font-family:"Simsun"}
+.mincho {
+    font-family:'MS Mincho';}
+/*common elements*/
+ruby {
+    font-weight: 500;}
+rt {
+    font-weight: 300;}

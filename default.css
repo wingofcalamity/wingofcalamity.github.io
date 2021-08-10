@@ -18,6 +18,7 @@ a:hover
     color: #FFE5B4;
     text-decoration: none;
     font-weight:normal; 
+    text-decoration:underline;
 }
 h1 {
     font-size: 100%;  

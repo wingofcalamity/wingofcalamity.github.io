@@ -1,5 +1,5 @@
 body {
-    background-color: #3474b4;
+    background-color: #36393f;
     text-align: center;
     color: white;
     font-size: 200%;  
@@ -43,3 +43,7 @@ ruby {
     font-weight: 500;}
 rt {
     font-weight: 300;}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

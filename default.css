@@ -1,5 +1,5 @@
 body {
-    background-color: #3474b4;
+    background-color: #36393f;
     text-align: center;
     color: white;
     font-size: 200%;  
@@ -25,8 +25,7 @@ h1 {
     text-align: center;}
 /* div addons lol */
 div {
-    color: white;
-}
+    color: white;}
 .vertical {
         display:flex;
         justify-content:center;
@@ -43,3 +42,9 @@ ruby {
     font-weight: 500;}
 rt {
     font-weight: 300;}
+table, th, td {
+    border: 3px solid white;
+    border-collapse: collapse;}
+.center {
+    margin-left: auto;
+    margin-right: auto;}

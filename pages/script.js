@@ -27,7 +27,7 @@ function loadDoc(value) {
   function dict(xml) {
       const xmlDoc = xml.responseXML;
       const x = xmlDoc.getElementsByTagName("CONJ");
-      let table=`<tr><th>Plain</th><th>Negative</th><th>Past</th><th>te</th></tr>`;
+      let table=`<tr><th>Plain</th><th>Negative</th><th>Past</th><th>て-Form</th></tr>`;
       for (let i = 0; i <x.length; i++) {
       table += `<tr><td>` +
       x[i].getElementsByTagName("PLAIN")[0].childNodes[0].nodeValue +
@@ -41,3 +41,19 @@ function loadDoc(value) {
       }
       document.getElementById("dicto").innerHTML = table;
   }
+
+function dictjson1() {
+    const dbParam = JSON.stringify({table:"customers",limit:20});
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onload = function() {
+      myObj = JSON.parse(this.responseText);
+      let text = "<table border='1'>"
+      for (let x in myObj) {
+        text += "<tr><td>" + myObj[x].name + "</td></tr>";
+      }
+      text += "</table>"
+      document.getElementById("jtable").innerHTML = text;
+    }
+    xmlhttp.open("POST", "dictionary.json");
+    xmlhttp.send("x=" + dbParam);
+}

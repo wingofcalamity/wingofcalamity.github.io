@@ -43,6 +43,7 @@ ruby {
 rt {
     font-weight: 300;}
 table, th, td {
+    text-align: center;
     border: 3px solid white;
     border-collapse: collapse;}
 .center {

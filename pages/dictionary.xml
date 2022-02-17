@@ -1,0 +1,26 @@
+<DICT>
+	<CONJ>
+		<PLAIN>いる</PLAIN>
+		<NEGATIVE>いない</NEGATIVE>
+		<PAST>いった</PAST>
+		<TE>いて</TE>
+	</CONJ>
+	<CONJ>
+		<PLAIN>ある</PLAIN>
+		<NEGATIVE>ない</NEGATIVE>
+		<PAST>あった</PAST>
+		<TE>あって</TE>
+	</CONJ>
+    <CONJ>
+		<PLAIN>思う</PLAIN>
+		<NEGATIVE>思わない</NEGATIVE>
+		<PAST>思った</PAST>
+		<TE>思って</TE>
+	</CONJ>
+    <CONJ>
+		<PLAIN>くる</PLAIN>
+		<NEGATIVE>こない</NEGATIVE>
+		<PAST>きた</PAST>
+		<TE>きて</TE>
+	</CONJ>
+</DICT>
